@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CS_522_CourseProject</string>
+    <string name="todayschedule"> Today\'s Schedule  \n</string>
+    <string name="date"> Nov 18,  2020</string>
+    <string name="tab1">\n 9 AM \n Crocin \n 500mg / 1 tablet</string>
+    <string name="tab2">\n 10 AM \n Asprin \n 200mg / 2 tablets</string>
+
+
+</resources>

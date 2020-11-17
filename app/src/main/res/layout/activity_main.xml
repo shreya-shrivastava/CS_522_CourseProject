@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sunday"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:background="@drawable/textview_design"
+        android:gravity="center"
+        android:text="S"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/monday"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:background="@drawable/textview_design"
+        android:gravity="center"
+        android:text="M"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/tuesday"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:background="@drawable/textview_design"
+        android:gravity="center"
+        android:text="T"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/wednesday"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:background="@drawable/textview_design"
+        android:gravity="center"
+        android:text="W"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/thrusday"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:background="@drawable/textview_design"
+        android:gravity="center"
+        android:text="T"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="212dp"
+        tools:layout_editor_absoluteY="83dp" />
+
+    <TextView
+        android:id="@+id/friday"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:background="@drawable/textview_design"
+        android:gravity="center"
+        android:text="F"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/saturday"
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        android:background="@drawable/textview_design"
+        android:gravity="center"
+        android:text="S"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="312dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="224dp"
+        android:layout_height="60dp"
+        android:text="@string/todayschedule"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="162dp"
+        android:layout_height="48dp"
+        android:text="@string/date"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="254dp"
+        android:layout_height="81dp"
+        android:background="@drawable/textview_design"
+        android:text="@string/tab1"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="43dp"
+        android:layout_height="41dp"
+        app:srcCompat="@android:drawable/ic_media_play"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="254dp"
+        android:layout_height="81dp"
+        android:background="@drawable/textview_design"
+        android:text="@string/tab2"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="410dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="43dp"
+        android:layout_height="40dp"
+        app:srcCompat="@android:drawable/ic_media_play"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="72dp"
+        android:layout_height="61dp"
+        app:srcCompat="@android:drawable/ic_input_add"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="72dp"
+        android:layout_height="61dp"
+        app:srcCompat="@android:drawable/ic_menu_edit"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="72dp"
+        android:layout_height="61dp"
+        app:srcCompat="@android:drawable/ic_popup_reminder"
+        tools:layout_editor_absoluteX="202dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
